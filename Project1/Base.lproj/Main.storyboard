@@ -251,6 +251,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="Q">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hUg-tB-vuw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p2m-0s-ZQg">
                                                 <rect key="frame" x="40" y="0.0" width="42" height="38"/>
@@ -260,6 +263,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="W">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jc6-rl-NsO"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCH-ET-l7M">
                                                 <rect key="frame" x="84" y="0.0" width="34.333333333333343" height="38"/>
@@ -269,6 +275,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="E">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="McL-Zc-YQO"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVs-k9-Eik">
                                                 <rect key="frame" x="120.33333333333336" y="0.0" width="35.666666666666671" height="38"/>
@@ -278,6 +287,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="R">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="71B-NM-nPv"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bT7-pR-p6D">
                                                 <rect key="frame" x="158" y="0.0" width="35" height="38"/>
@@ -287,6 +299,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="T">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q5W-nS-vhw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VJC-jD-Y1c">
                                                 <rect key="frame" x="195" y="0.0" width="35.666666666666657" height="38"/>
@@ -296,6 +311,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="Y">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2aG-TQ-6oZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDZ-B0-NlX">
                                                 <rect key="frame" x="232.66666666666666" y="0.0" width="37.333333333333343" height="38"/>
@@ -305,6 +323,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="U">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nLO-e0-iex"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uD2-oj-OWm">
                                                 <rect key="frame" x="272" y="0.0" width="28.333333333333314" height="38"/>
@@ -315,7 +336,7 @@
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
                                                 <connections>
-                                                    <action selector="clikedKeyboard:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Nv-2h-b95"/>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w9N-JP-5gZ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w7q-tW-Gw4" userLabel="O">
@@ -326,6 +347,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="O">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f6c-mM-CU8"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGS-4D-u5m">
                                                 <rect key="frame" x="342.33333333333331" y="0.0" width="34.666666666666686" height="38"/>
@@ -335,6 +359,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="P">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fB3-3h-2fh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -349,6 +376,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="A">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wR6-bf-jYx"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTf-e5-f0W">
                                                 <rect key="frame" x="39" y="0.0" width="36.333333333333343" height="38"/>
@@ -358,6 +388,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="S">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ar8-6i-4jY"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J2F-qa-k95">
                                                 <rect key="frame" x="77.333333333333329" y="0.0" width="38" height="38"/>
@@ -367,6 +400,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="D">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="i9P-zZ-LfP"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6QN-OZ-IAB">
                                                 <rect key="frame" x="117.33333333333334" y="0.0" width="35" height="38"/>
@@ -376,6 +412,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="F">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ICD-tB-Qyw"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QOS-ts-iuP">
                                                 <rect key="frame" x="154.33333333333334" y="0.0" width="38.333333333333343" height="38"/>
@@ -385,6 +424,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="G">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIW-a4-De0"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsV-ps-lg9">
                                                 <rect key="frame" x="194.66666666666666" y="0.0" width="38.333333333333343" height="38"/>
@@ -394,6 +436,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="H">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DIk-3p-bra"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4g-Th-IBv">
                                                 <rect key="frame" x="235" y="0.0" width="34.333333333333314" height="38"/>
@@ -403,6 +448,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="J">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7xD-CZ-6WI"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93u-v6-yRk">
                                                 <rect key="frame" x="271.33333333333331" y="0.0" width="36.666666666666686" height="38"/>
@@ -412,6 +460,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="K">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5xe-W0-B2w"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ubv-JU-MIy">
                                                 <rect key="frame" x="310" y="0.0" width="35" height="38"/>
@@ -421,6 +472,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="L">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yab-cm-Pst"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -435,6 +489,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="Z">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1kl-Lk-w0n"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ytP-Ah-oXQ">
                                                 <rect key="frame" x="38.666666666666671" y="0.0" width="37" height="38"/>
@@ -444,6 +501,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="X">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZeB-jw-EXc"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2pE-M6-p2D">
                                                 <rect key="frame" x="77.666666666666671" y="0.0" width="38" height="38"/>
@@ -453,6 +513,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="C">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ful-Z6-G56"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z3e-9g-uUW">
                                                 <rect key="frame" x="117.66666666666666" y="0.0" width="37" height="38"/>
@@ -462,6 +525,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="V">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="num-1P-rNG"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYg-Wg-exL">
                                                 <rect key="frame" x="156.66666666666666" y="0.0" width="36.666666666666657" height="38"/>
@@ -471,6 +537,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="B">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IxX-DI-qSl"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g1T-D2-NHe">
                                                 <rect key="frame" x="195.33333333333334" y="0.0" width="38.333333333333343" height="38"/>
@@ -480,6 +549,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="N">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qqc-Pf-YpK"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMg-24-7iC">
                                                 <rect key="frame" x="235.66666666666669" y="0.0" width="41" height="38"/>
@@ -489,6 +561,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="M">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jem-6x-JIA"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5T7-vS-qyK">
                                                 <rect key="frame" x="278.66666666666669" y="0.0" width="36.333333333333314" height="38"/>
@@ -498,6 +573,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="&lt;">
                                                     <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle3"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="keyBoardPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xt1-fZ-9ii"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -528,6 +606,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="btnSumit" destination="ohQ-jX-5RN" id="ZyY-eb-dyP"/>
                         <outlet property="rootUIStackView" destination="1xV-tM-jgu" id="q98-za-7z4"/>
                     </connections>
                 </viewController>
