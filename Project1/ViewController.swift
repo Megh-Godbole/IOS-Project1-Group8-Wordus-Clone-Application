@@ -15,6 +15,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         setInputBox()
     }
+    @IBAction func clikedKeyboard(_ sender: UIButton) {
+        
+        
+    }
     func setInputBox(){
         for stackView in rootUIStackView.arrangedSubviews {
             if let horizontalStack = stackView as? UIStackView {
